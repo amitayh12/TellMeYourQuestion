@@ -25,6 +25,8 @@ def create_mp3_from_text(my_text):
   #return MP3
   #Here is a good expample to how to use Watson API for text2speach:
   #https://www.ibm.com/watson/developercloud/text-to-speech/api/v1/python.html?python#websocket_methods
+  #another option is to use API of google
+  #https://cloud.google.com/text-to-speech/docs/create-audio#text-to-speech-text-python
   return
 
 def send_mp3_to_client(mp3_file):
