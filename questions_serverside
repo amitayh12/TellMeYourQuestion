@@ -13,22 +13,28 @@ text_to_speech = TextToSpeechV1(
 )
 
 def open_server():
-  serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-  #http?telnet?
-  serversocket.bind(('localhost', 80))
-  serversocket.listen(5)
+    serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    #http?telnet?
+    serversocket.bind(('localhost', 80))
+    serversocket.listen(5)
   
-def recieve_text_data():
-  return
+def recieve_question_data():
+    return
 
-def create_mp3_from_text(my_text):
-  #return MP3
-  #Here is a good expample to how to use Watson API for text2speach:
-  #https://www.ibm.com/watson/developercloud/text-to-speech/api/v1/python.html?python#websocket_methods
-  #another option is to use API of google
-  #https://cloud.google.com/text-to-speech/docs/create-audio#text-to-speech-text-python
-  return
+def get_answer(quest_text):
+    #return funnt answer
+    return
+
+def create_mp3_from_text(my_answer_text):
+    #return MP3
+    #Here is a good expample to how to use Watson API for text2speach:
+    #https://www.ibm.com/watson/developercloud/text-to-speech/api/v1/python.html?python#websocket_methods
+    #another option is to use API of google
+    #https://cloud.google.com/text-to-speech/docs/create-audio#text-to-speech-text-python
+    return
 
 def send_mp3_to_client(mp3_file):
-  return
-  
+    return
+
+def main():
+    print "helllooooooooooo"
